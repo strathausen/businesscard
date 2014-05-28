@@ -1,0 +1,38 @@
+\documentclass[10pt,a4paper]{article}
+%\usepackage[landscape]{geometry}
+% Nice color names
+\usepackage[usenames,dvipsnames]{xcolor}
+% Font encoding of the custom font
+\usepackage[T1]{fontenc}
+% Landscape support
+\usepackage{pdflscape}
+% Used for the wundering and fitting of the text
+\usepackage{graphics}
+% No page numbers
+\thispagestyle{empty}
+% Stretch everything to page width
+\newcommand{\wunder}[1]{\resizebox{\textwidth}{!}{#1}}
+\newcommand{\blue}[1]{{\color{MidnightBlue} #1}}
+\newcommand{\vsp}[1]{\vspace*{#1\baselineskip}}
+\begin{document}
+\noindent
+\usefont{T1}{custom}{m}{n}
+\color{Bittersweet}
+\vsp{-.2}
+\wunder{software}
+\wunder{craftsman}
+\wunder{architect}
+\clearpage
+\pagecolor{MidnightBlue}
+\begin{landscape}
+\color{White}
+\noindent
+\vsp{-.3}
+\huge
+\wunder{Johann Philipp Strathausen}\\
+\wunder{browse my code at github.com/strathausen}\\
+\vsp{-.2}
+\wunder{visit my blog at stratha.us}\\
+\wunder{contact me via strathausen@gmail.com}
+\end{landscape}
+\end{document}
