@@ -1,20 +1,13 @@
 \documentclass[a5paper,landscape]{article}
-%\addtolength{\topmargin}{-.875in}
-%\addtolength{\downmargin}{-.875in}
+\usepackage[margin=1.25in,right=2.2in,height=2.32in, width=3.46in]{geometry}
 % Nice color names
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{fullpage}
-% Font encoding of the custom font
-% Landscape support
-% Used for the wundering and fitting of the text
-%\usepackage{graphics}
 % No page numbers
-\thispagestyle{empty}
-% Stretch everything to page width
-%\newcommand{\wunder}[1]{\resizebox{\textwidth}{!}{#1}}
+\pagestyle{empty}
+% Blue is the new green
 \newcommand{\blue}[1]{\texttt{\color{JungleGreen} #1}}
 \newcommand{\red}[1]{\texttt{\color{WildStrawberry} #1}}
-%\newcommand{\vsp}[1]{\vspace*{#1\baselineskip}}
+
 \begin{document}
 \noindent
 \Huge
@@ -24,22 +17,13 @@
 \blue{hacking }\red{web}\blue{, }\red{mobile}\blue{, }\red{aeronautics} \\
 \red{code }\blue{github.com/strathausen} \\
 \red{blog }\blue{stratha.us} \\
+\red{twitter }\blue{@strathausen} \\
 \red{email }\blue{strathausen@gmail.com} \\
 \red{phone }\blue{+49 178 147 8472}
-%\wunder{software}
-%\wunder{craftsman}
-%\wunder{architect}
-%\clearpage
-%\pagecolor{MidnightBlue}
-%\begin{landscape}
-%\color{White}
-%\noindent
-%\vsp{-.3}
-%\huge
-%\wunder{Johann Philipp Strathausen}\\
-%\wunder{browse my code at github.com/strathausen}\\
-%\vsp{-.2}
-%\wunder{visit my blog at stratha.us}\\
-%\wunder{contact me via strathausen@gmail.com}
-%\end{landscape}
+\clearpage
+\pagecolor{MidnightBlue}
+\color{White}
+\noindent
+\texttt{hi. i'm a passionate hacker based in berlin.  i build amazing products.
+you should have a coffee with me!}
 \end{document}
